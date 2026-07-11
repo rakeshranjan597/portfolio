@@ -117,7 +117,7 @@
                 <li><strong>LLM-Powered Loan Insights:</strong> Integrated an LLM API (AWS Bedrock) to summarize loan rejection reasons into clear, customer-friendly explanations using prompt templating, structured JSON output, and token-cost controls.</li>
                 <li><strong>Zero-Trust Authentication:</strong> Engineered an Envoy Proxy sidecar platform to offload JWT verification across 75+ microservices, standardizing Zero-Trust security org-wide while reducing per-request latency.</li>
                 <li><strong>Loan Orchestration Engine:</strong> Built a high-performance workflow engine in Kotlin and coroutines processing 20K+ loans/day; reduced end-to-end loan-approval p99 latency from 15s to 8s (~47%).</li>
-                <li><strong>Self-Healing Systems:</strong> Designed automated recovery to detect and reprocess failed loans via error-code monitoring, improving processing success rates by 15%.</li>
+                <li><strong>Self-Healing Systems:</strong> Designed an automated self-healing mechanism that detects and reprocesses failed loans via error-code monitoring, auto-resolving ~90% of failures and cutting cases needing manual intervention from 10% to 1% of applications.</li>
                 <li><strong>FinTech Partner Integrations:</strong> Launched greenfield services enabling end-to-end loan approvals for CRED, BharatPe, Paytm, and Groww.</li>
                 <li><strong>Automated Verification Pipelines:</strong> Streamlined KYC (UIDAI, NSDL), underwriting, and PennyDrop bank verification, accelerating the approval lifecycle by 15%.</li>
               </ul>
