@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rakesh Ranjan · Lead Software Engineer</title>
+  <meta name="description" content="Rakesh Ranjan — Lead Software Engineer. Backend specialist with 6+ years building scalable, low-latency distributed systems in Java, Kotlin & AWS." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Nav -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo">RR<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+        <a href="rakesh-ranjan-resume.pdf" target="_blank" rel="noopener" class="nav__resume">Resume ↗</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18"><path d="M12 17a5 5 0 100-10 5 5 0 000 10zM12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="nav__burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow reveal">Backend · Distributed Systems · FinTech</p>
+        <h1 class="hero__title reveal">Rakesh Ranjan</h1>
+        <h2 class="hero__subtitle reveal">Lead Software Engineer</h2>
+        <p class="hero__lead reveal">
+          Backend specialist with <strong>6+ years</strong> building scalable, low-latency
+          distributed systems. Deep expertise in <strong>Java / Kotlin</strong> and <strong>AWS</strong>,
+          with a proven track record automating loan orchestration and partner-integration
+          pipelines in FinTech.
+        </p>
+        <div class="hero__cta reveal">
+          <a href="#contact" class="btn btn--primary">Get in touch</a>
+          <a href="#experience" class="btn btn--ghost">View experience</a>
+        </div>
+        <div class="hero__stats reveal">
+          <div class="stat"><span class="stat__num" data-count="6">0</span><span class="stat__plus">+</span><span class="stat__label">Years experience</span></div>
+          <div class="stat"><span class="stat__num" data-count="75">0</span><span class="stat__plus">+</span><span class="stat__label">Microservices secured</span></div>
+          <div class="stat"><span class="stat__num" data-count="20">0</span><span class="stat__plus">K/day</span><span class="stat__label">Loans processed</span></div>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__index">01</span>
+          <h2 class="section__title">About</h2>
+        </div>
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              I lead a team of engineers at <strong>Credit Saison India</strong>, owning technical
+              strategy, design reviews, and delivery across platform and lending services. My focus
+              is on building robust backend systems that stay fast and reliable at scale.
+            </p>
+            <p>
+              From centralizing Zero-Trust authentication with Envoy sidecars to shaving loan-approval
+              latency nearly in half, I enjoy solving the kind of problems where correctness, performance,
+              and developer experience all matter at once.
+            </p>
+          </div>
+          <ul class="about__facts reveal">
+            <li><span>Role</span><strong>Lead Software Engineer</strong></li>
+            <li><span>Location</span><strong>Bangalore, India</strong></li>
+            <li><span>Focus</span><strong>Backend · Distributed Systems</strong></li>
+            <li><span>Education</span><strong>B.Tech IT, CUSAT</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section--alt">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__index">02</span>
+          <h2 class="section__title">Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <!-- Credit Saison -->
+          <article class="tl reveal">
+            <div class="tl__marker"></div>
+            <div class="tl__body">
+              <div class="tl__top">
+                <h3><a href="https://creditsaison.in" target="_blank" rel="noopener">Credit Saison India</a></h3>
+                <span class="tl__date">Oct 2021 — Present</span>
+              </div>
+              <p class="tl__meta">Lead Software Engineer · Bangalore, India</p>
+              <p class="tl__note">A leading NBFC and subsidiary of Credit Saison Co. Ltd., one of Japan's largest credit/prepaid card issuers.</p>
+              <ul class="tl__list">
+                <li>Lead a team of 4 engineers, owning technical strategy, design reviews, and delivery across platform and lending services.</li>
+                <li><strong>LLM-Powered Loan Insights:</strong> Integrated an LLM API (AWS Bedrock) to summarize loan rejection reasons into clear, customer-friendly explanations using prompt templating, structured JSON output, and token-cost controls.</li>
+                <li><strong>Zero-Trust Authentication:</strong> Engineered an Envoy Proxy sidecar platform to offload JWT verification across 75+ microservices, standardizing Zero-Trust security org-wide while reducing per-request latency.</li>
+                <li><strong>Loan Orchestration Engine:</strong> Built a high-performance workflow engine in Kotlin and coroutines processing 20K+ loans/day; reduced end-to-end loan-approval p99 latency from 15s to 8s (~47%).</li>
+                <li><strong>Self-Healing Systems:</strong> Designed automated recovery to detect and reprocess failed loans via error-code monitoring, improving processing success rates by 15%.</li>
+                <li><strong>FinTech Partner Integrations:</strong> Launched greenfield services enabling end-to-end loan approvals for CRED, BharatPe, Paytm, and Groww.</li>
+                <li><strong>Automated Verification Pipelines:</strong> Streamlined KYC (UIDAI, NSDL), underwriting, and PennyDrop bank verification, accelerating the approval lifecycle by 15%.</li>
+              </ul>
+              <p class="tl__prog">Senior SE (Oct 2023–Mar 2025) · SE II (Oct 2022–Sep 2023) · SE I (Oct 2021–Sep 2022)</p>
+            </div>
+          </article>
+
+          <!-- Lenskart -->
+          <article class="tl reveal">
+            <div class="tl__marker"></div>
+            <div class="tl__body">
+              <div class="tl__top">
+                <h3><a href="https://www.lenskart.com" target="_blank" rel="noopener">Lenskart</a></h3>
+                <span class="tl__date">Mar 2020 — Oct 2021</span>
+              </div>
+              <p class="tl__meta">Software Engineer · Bangalore, India</p>
+              <ul class="tl__list">
+                <li><strong>Real-Time WhatsApp Reporting:</strong> Engineered an event-driven system using Apache Kafka and Gupshup APIs to deliver automated daily sales PDFs and real-time analytics to franchise partners.</li>
+                <li><strong>Financial Reconciliation (Cash Reco):</strong> Built a centralized cash-reconciliation system tracking daily collections, integrating ICICI bank deposits with on-site agent collections.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__index">03</span>
+          <h2 class="section__title">Skills</h2>
+        </div>
+        <div class="skills">
+          <div class="skillcat reveal">
+            <h3>Languages</h3>
+            <div class="pills"><span>Java</span><span>Kotlin</span><span>Python</span><span>SQL</span></div>
+          </div>
+          <div class="skillcat reveal">
+            <h3>Backend</h3>
+            <div class="pills"><span>Spring Boot</span><span>Spring MVC</span><span>Hibernate</span><span>Coroutines</span><span>REST APIs</span></div>
+          </div>
+          <div class="skillcat reveal">
+            <h3>Data</h3>
+            <div class="pills"><span>PostgreSQL</span><span>MySQL</span><span>Redis</span><span>ElastiCache</span></div>
+          </div>
+          <div class="skillcat reveal">
+            <h3>Cloud &amp; Infra</h3>
+            <div class="pills"><span>AWS</span><span>EC2</span><span>Lambda</span><span>RDS</span><span>SQS</span><span>API Gateway</span><span>Cognito</span><span>CloudFormation</span><span>CodePipeline</span><span>Docker</span><span>Envoy</span></div>
+          </div>
+          <div class="skillcat reveal">
+            <h3>Observability &amp; Concepts</h3>
+            <div class="pills"><span>Datadog</span><span>CloudWatch</span><span>System Design</span><span>Microservices</span><span>Event-Driven</span><span>DSA</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section section--alt">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__index">04</span>
+          <h2 class="section__title">Achievements</h2>
+        </div>
+        <div class="awards">
+          <div class="award reveal">
+            <div class="award__icon">🏆</div>
+            <h3>Extra Mile Award</h3>
+            <p>+ Rewards · Mar 2025</p>
+          </div>
+          <div class="award reveal">
+            <div class="award__icon">🌟</div>
+            <h3>Dashing Debut Award</h3>
+            <p>+ Rewards · Jul 2024</p>
+          </div>
+          <div class="award reveal">
+            <div class="award__icon">🤝</div>
+            <h3>Partnership Pioneer Award</h3>
+            <p>2022 — 23</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact reveal">
+          <span class="section__index">05</span>
+          <h2 class="contact__title">Let's build something great.</h2>
+          <p class="contact__lead">Open to conversations about backend architecture, distributed systems, and FinTech. Reach out any time.</p>
+          <div class="contact__links">
+            <a href="mailto:rakeshranjan597@gmail.com" class="btn btn--primary">rakeshranjan597@gmail.com</a>
+            <a href="https://www.linkedin.com/in/rakesh-ranjan-00035315b/" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn</a>
+            <a href="rakesh-ranjan-resume.pdf" target="_blank" rel="noopener" class="btn btn--ghost">Download Resume</a>
+            <a href="tel:+919296536691" class="btn btn--ghost">+91 92965 36691</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Rakesh Ranjan · Bangalore, India</p>
+      <p class="footer__built">Built with plain HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
