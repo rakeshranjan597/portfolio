@@ -77,12 +77,14 @@
   const nums = document.querySelectorAll(".stat__num");
   const run = (el) => {
     const target = +el.dataset.count;
+    const isDecimal = target % 1 !== 0;
     const dur = 1200;
     const start = performance.now();
     const step = (now) => {
       const p = Math.min((now - start) / dur, 1);
       const eased = 1 - Math.pow(1 - p, 3);
-      el.textContent = Math.round(eased * target);
+      const val = eased * target;
+      el.textContent = isDecimal ? val.toFixed(1) : Math.round(val);
       if (p < 1) requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
