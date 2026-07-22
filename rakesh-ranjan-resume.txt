@@ -7,7 +7,7 @@ Lead Software Engineer
 
 SUMMARY
 
-Senior Backend Engineer with 6.5+ years of experience designing and building scalable, resilient systems in FinTech and SaaS. Expert in performance optimization, microservices architecture, and SOLID design principles. Skilled in Java/Kotlin and AWS cloud architecture. Proven track record of technical leadership, mentoring teams, and establishing engineering standards. Delivered significant business impact through: architected centralized Zero-Trust Authentication system achieving 11x latency improvement across 85+ microservices, engineered loan orchestration platform delivering 2.3x throughput gains and 47% latency reduction, and implemented automated incident remediation with 90% automation coverage. Technical leader responsible for driving architecture decisions and establishing engineering strategy.
+Senior Backend Engineer with 6.5+ years of experience designing and building scalable, resilient systems in FinTech and SaaS. Expert in performance optimization, microservices architecture, and SOLID design principles. Skilled in Java/Kotlin and AWS cloud architecture. Proven track record of technical leadership, mentoring teams, and establishing engineering standards. Delivered significant business impact through: architected centralized Zero-Trust Authentication system achieving 6x latency improvement across 85+ microservices, engineered loan orchestration platform delivering 2.3x throughput gains and 47% latency reduction, and implemented automated incident remediation with 90% automation coverage. Technical leader responsible for driving architecture decisions and establishing engineering strategy.
 
 ---
 
@@ -20,7 +20,7 @@ A leading NBFC and subsidiary of Credit Saison Co. Ltd., one of Japan's largest 
 
 • Lead and mentor a team of 4 engineers, establishing technical standards, conducting design reviews, and owning delivery strategy across platform and lending services; mentored 2 engineers to SE II promotion; established code review standards reducing merge time by 25%.
 
-• Zero-Trust Authentication: Architected and led org-wide centralized AuthN/AuthZ using AWS Cognito + Envoy + OPA across 85+ microservices; delivered 11x latency improvement (55ms → 5ms), 4x throughput increase, 70% memory reduction, standardized security policies org-wide.
+• Zero-Trust Authentication: Architected and led org-wide centralized AuthN/AuthZ using AWS Cognito + Envoy + OPA across 85+ microservices; delivered 6x latency improvement (45ms → 7ms), 4x throughput increase, 55% memory reduction, standardized security policies org-wide.
 
 • LLM-Powered Loan Insights: Integrated AWS Bedrock to automatically summarize loan rejection reasons into customer-friendly explanations using prompt templating and structured JSON output. Reduced manual customer support effort by 30%, improved clarity and implemented token-cost controls to optimize API spend.
 
